@@ -162,9 +162,7 @@ body {
   }
   
   @media (max-width: 768px) {
-    .info {
-      display: none;
-    }
+    
   
     .intro {    
       justify-content: center;
