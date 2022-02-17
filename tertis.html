@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tetris</title>
+  <link rel="stylesheet" href="tertis.css">
+</head>
+
+<body>
+    <h1 style="position: absolute; top: 0; left: 79vh;">for bill test</h1>
+  <div id="container">
+    <div class="grid"></div>
+        <div class="controller">
+          <button id="start-button1">開始 / 暫停</button>
+          <div class="intro">
+            <div class="keyBoard1" disabled>旋轉</div>
+            <div class="keyBoard2" disabled>
+              <button class="upForMobile">↑</button>
+            </div>
+            <div class="keyBoard3" disabled>
+              <div>
+                <button class="leftForMobile">←</button>
+                <P>往左</P>
+              </div>
+              <div>
+                <button class="downForMobile">↓</button>
+                <P>往下</P>
+              </div>
+              <div>
+                <button class="rightForMobile">→</button>
+                <P>往右</P>
+              </div>
+            </div>
+        
+          </div>
+        </div>
+    <div class="info">
+      <h2>下一個</h2>
+      <div class="mini-grid"></div>
+      <h3>分數: <span id="score">0</span></h3>
+      <button id="start-button">開始 / 暫停</button>
+      <div class="intro">
+        
+        <div class="keyBoard1" disabled>旋轉</div>
+                <div class="keyBoard2" disabled>
+                  <button class="up">↑</button>
+                </div>
+        <div class="keyBoard3" disabled>
+          <div>
+            <button class="left">←</button>
+            <P>往左</P>
+          </div>
+          <div>
+            <button class="down">↓</button>
+            <P>往下</P>
+          </div>
+          <div>
+            <button class="right">→</button>
+            <P>往右</P>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+
+  </div>
+  <script src="tertis.js"></script>
+</body>
+
+</html>
